@@ -133,11 +133,7 @@ fieldset{
     border: none;
 }
 
-/* select*/
 
-select{
-    /* -webkit-appearance: none; */
-}
 
 
 
@@ -167,7 +163,7 @@ span.required{
 
 
 
-lagend {
+legend {
     width: 90%;
     text-align: left;
     margin-left: 20px;
@@ -175,15 +171,15 @@ lagend {
     padding-top: 40px;
 }
 
-lagend {
+legend {
     font-size: 20px;
     font-weight: bold;
 }
 .checkbox, .other-topic {
-    margin-left: -40px;
+    margin-left: 0;
 }
 .format.clearfix {
-    margin-left: -40px;
+    margin-left: 0;
 }
 button {
     background-color: #52bab3;
