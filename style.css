@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    
+}
+
+body{
+    background:#007cba;
+}
+
+
+/*  header*/
+header{
+   
+    background-size: cover;
+    width: 100%;
+    margin:0;
+    background-position: center;
+}
+header h1{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 90px;
+    color: white;
+    text-align:center;
+    background-color: #25383c;
+    margin-top: -9px;
+    margin-left: -90px;
+    margin-right: -8px;
+    font-size: 29px;
+    text-align: center;
+    font-size: 23px;
+}
+/* title*/
+p {
+    border-bottom: 4mm ridge;
+    padding-bottom: 15px;
+    /* color:  #848483; */
+    /* border-bottom-color: black; */
+    width: 90%;
+    text-align: center;
+}
+
+h2 {
+    
+    padding-top: 30px;
+    margin-top: -14px;
+   
+    width: 90%;
+}
+h2.title {
+    text-align: center;
+    border: none;
+}
+/*label */
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    /* color:  #4C4646; */
+  }
+  body label{
+    margin-top: 16px;
+    margin-bottom: -9px;
+} 
+label.copyright {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+.checkbox label, .format label {
+    display: inline;}
+
+/* input*/
+input[type="text" ], select#state{
+   background-color: #f2f2f2;
+   max-width: 100%;
+   width: 88%;
+   border:none;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+input#other-topic {
+    margin-bottom: 20px;
+    padding-bottom: 70px;
+    margin-top: 30px;
+}
+
+    
+
+input#zip-code {
+    width: 50%;
+    
+    display: inline-block;
+    
+    margin-right: 120px;
+}
+input[type="text"]:hover{
+       border-color: black;
+       border: solid;
+       transition-property:font-size;
+       font-size: 1em;
+   }
+   input#zip-code {
+    margin-bottom: 50px;
+}
+input, label, select, h2, button, p , lagend{
+    margin-left: 20px;
+}
+
+::placeholder{
+    text-align:right;
+     font-style: italic;
+ padding-right: 10%;
+ color: red;
+ }
+
+input, select:focus {
+    border-color: blue;
+  }
+  #phone-number::placeholder{
+    color: blue;
+}
+
+
+form{
+    margin: 0;
+    max-width: 100%;
+}
+fieldset{
+    border: none;
+}
+
+/* select*/
+
+select{
+    /* -webkit-appearance: none; */
+}
+
+
+
+   select#state:hover{
+       border-color: black;
+       border:solid;
+   }
+  
+label#no-after:after {
+    content: none;
+}
+.contact label::after{
+    content: "*";
+    color: red;
+
+}
+option[value=""]
+ {
+    color: rgb(134, 134, 139);
+    font-style: italic;
+}
+
+span.required{
+    display: none;
+}
+
+
+
+
+lagend {
+    width: 90%;
+    text-align: left;
+    margin-left: 20px;
+    
+    padding-top: 40px;
+}
+
+lagend {
+    font-size: 20px;
+    font-weight: bold;
+}
+.checkbox, .other-topic {
+    margin-left: -40px;
+}
+.format.clearfix {
+    margin-left: -40px;
+}
+button {
+    background-color: #52bab3;
+    padding: 12px 0 12px 0;
+    width: 84%;
+    font-size: 28px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+@media(min-width:768px ){
+    input{
+        display: inline;
+    }
+    main{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    input [type="text"]{
+        display: inline;
+    }
+    div .contact{
+        display: inline;
+    }
+
+    input[type="text" ], select{
+        float:right;
+        width:70%;
+        margin: -85px 0 0 0;
+    }
+    .contact label{
+       display: inline-block;
+       margin: 30px 20px 40px 0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  select#state {
+      /* margin-right: 30px; */
+      width: 71%;
+      }
+      input#zip-code {
+        width: 50%;
+        /* display: inline-block; */
+        /* margin-right: 120px; */
+        float: left;
+        margin-left: 120px;
+    }
+    span.required {color: red;margin-left: -20px;}
+    header{
+        width: 100%;
+        margin:0;
+    }
+    lagend {
+        display: block;
+        margin-top: -20px;
+        margin-bottom: 10px;
+        text-align: left;
+        margin-left: 0;
+    }
+    
+    input#other-topic,button {
+      width: 100%;
+      margin-left: 0%;
+    padding-left: 0;
+    
+}
+fieldset#second-part {
+    margin-left: -20px;
+}
+button {
+    margin-left: -15px;
+    margin-right: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+

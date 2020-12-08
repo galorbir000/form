@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body class="clearfix">
+    <form action="index.html" method="Post">
+        <header>
+            <h1> THE CODE REVIEW</h1>
+        </header>
+        <main>
+            <h2 class="title"> Signup for our newsletter</h2>
+            <p> Get the latest news on how your code is doing right in your inbox</p>
+        <Fieldset  class="contact clearfix">
+        <lagend> Contact Information</lagend>
+        <label for="name"> Full Name</label> <br>   
+        <input type="text" id="name" name="user_name" placeholder="Required" required>  
+        <label for="email"> Email Address</label> <br>
+        <Input class="email" type=text id="email" name=" user_email"  placeholder="Required"required>
+        <label for="phone-number" id="no-after"> Phone Number</label> <br>
+        <input type="text" id="phone-number" name="user_phone-number"  placeholder="optional"> 
+        <label for="street-address"> Street Address</label> <br> 
+        <Input type=text id="street-address" name=" user_street-adress"  placeholder="Required" required>
+        <label for="city"> City</label>  <br>
+        <Input type=text id="city" name=" user_city"  placeholder="Required" required>
+        <label for="state"> State</label> <br>
+    <div class="select">
+        <Select id="state" name="states"selected="" class="clearfix" required>
+            <option value="" disabled selected hidden id="placeholder">Choose State</option>
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+            <option value="CA">California</option>
+            <option value="CO">Colorado</option>
+            <option value="CT">Connecticut</option>
+            <option value="DE">Delaware</option>
+            <option value="DC">District Of Columbia</option>
+            <option value="FL">Florida</option>
+            <option value="GA">Georgia</option>
+            <option value="HI">Hawaii</option>
+            <option value="ID">Idaho</option>
+            <option value="IL">Illinois</option>
+            <option value="IN">Indiana</option>
+            <option value="IA">Iowa</option>
+            <option value="KS">Kansas</option>
+            <option value="KY">Kentucky</option>
+            <option value="LA">Louisiana</option>
+            <option value="ME">Maine</option>
+            <option value="MD">Maryland</option>
+            <option value="MA">Massachusetts</option>
+            <option value="MI">Michigan</option>
+            <option value="MN">Minnesota</option>
+            <option value="MS">Mississippi</option>
+            <option value="MO">Missouri</option>
+            <option value="MT">Montana</option>
+            <option value="NE">Nebraska</option>
+            <option value="NV">Nevada</option>
+            <option value="NH">New Hampshire</option>
+            <option value="NJ">New Jersey</option>
+            <option value="NM">New Mexico</option>
+            <option value="NY">New York</option>
+            <option value="NC">North Carolina</option>
+            <option value="ND">North Dakota</option>
+            <option value="OH">Ohio</option>
+            <option value="OK">Oklahoma</option>
+            <option value="OR">Oregon</option>
+            <option value="PA">Pennsylvania</option>
+            <option value="RI">Rhode Island</option>
+            <option value="SC">South Carolina</option>
+            <option value="SD">South Dakota</option>
+            <option value="TN">Tennessee</option>
+            <option value="TX">Texas</option>
+            <option value="UT">Utah</option>
+            <option value="VT">Vermont</option>
+            <option value="VA">Virginia</option>
+            <option value="WA">Washington</option>
+            <option value="WV">West Virginia</option>
+            <option value="WI">Wisconsin</option>
+            <option value="WY">Wyoming</option>
+        </select>				
+                    
+    </div>
+<div class="zip-code">
+        <label for="zip-code"> Zip Code</label><br> <br>
+        <Input type=text id="zip-code" name=" user_zip-code" placeholder="Required" required>
+        </div>
+</Fieldset> 
+                  <Hr>
+
+        
+        <Fieldset id="second-part">
+            <lagend> Newsletter</lagend><br>
+            <br>
+            <label >Select the newsletter you would like to receive<label><br>
+                
+            <br>
+            <div class="checkbox">
+            <Input type="checkbox" id="htmlnews" value="htmlnews" name="htmlnews">
+            <label for="htmlnews"> HTML News</label> <br>
+                    <br>
+            <Input type="checkbox" id="cssnews" value="cssnews" name="cssnews">
+            <label for="cssnews"> CSS News</label> <br> 
+                <br> 
+            <Input type="checkbox" id="javascriptnews" value="javascriptnews" name="javascriptnews">
+            <label for="javascriptnews">Javascript News</label><br>  
+            <br> 
+        </div>
+     <div class="format clearfix">
+            <label> Newsletter format</label><br>
+            <br> 
+            <Input type="radio" id="html" value="html" name="html">
+            <label for="html"> HTML</label>  <br> 
+            <br>
+            <Input type="radio" id="planetext" value="planetext" name="planetext">
+                
+            <label for="planetext"> Plane Text</label> <br> 
+            <br>
+       </div>
+       <div class="other-topic">
+        <label > Other topic you would like to hear about</label> <br>
+        <Input type="text" id="other-topic" name="users_other-topic">
+        </div>
+     </Fieldset>
+ <button type="submit">Sign Up</button>
+
+<label class="copyright"> Copyright The Code Review</label>
+</main>
+    </form>
+</body>
+</html>
