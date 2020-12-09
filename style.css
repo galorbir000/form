@@ -74,7 +74,7 @@ label.copyright {
     display: inline;}
 
 /* input*/
-input[type="text" ], select#state{
+input[type="text" ],input[ type="tel"],input[ type="email"], select#state{
    background-color: #f2f2f2;
    max-width: 100%;
    width: 88%;
@@ -91,13 +91,11 @@ input#other-topic {
     
 
 input#zip-code {
-    width: 50%;
-    
-    display: inline-block;
-    
-    margin-right: 120px;
+    width: 45%;
+    /* display: inline-block; */
+    /* margin-right: 120px; */
 }
-input[type="text"]:hover{
+input:hover{
        border-color: black;
        border: solid;
        transition-property:font-size;
@@ -160,7 +158,9 @@ span.required{
     display: none;
 }
 
-
+input#phone-number {
+    border: none;
+}
 
 
 legend {
@@ -209,10 +209,10 @@ button {
         display: inline;
     }
 
-    input[type="text" ], select{
-        float:right;
+    input[type="text" ], select,input[ type="tel"],input[ type="email"]{
+        float: left;
         width:70%;
-        margin: -85px 0 0 0;
+        margin: -85px 0 0 150px;
     }
     .contact label{
        display: inline-block;
@@ -225,14 +225,16 @@ button {
   }
   select#state {
       /* margin-right: 30px; */
-      width: 71%;
+      width: 70%;
       }
       input#zip-code {
-        width: 50%;
+        width: 30%;
         /* display: inline-block; */
         /* margin-right: 120px; */
-        float: left;
-        margin-left: 120px;
+        /* float: none; */
+        /* margin-left: 100px; */
+        /* padding-right: 90px; */
+        /* margin-right: 210px; */
     }
     span.required {color: red;margin-left: -20px;}
     header{
@@ -253,15 +255,22 @@ button {
     padding-left: 0;
     
 }
-fieldset#second-part {
+div#second-part {
     margin-left: -20px;
+    margin-top: -30px;
 }
 button {
     margin-left: -15px;
     margin-right: 10px;
 }
+legend{
+    margin-left: 0;
+    margin-bottom: 20px;
+}
 
 }
+
+
 
 
 

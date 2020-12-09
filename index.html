@@ -23,9 +23,9 @@
         <label for="name"> Full Name</label> <br>   
         <input type="text" id="name" name="user_name" placeholder="Required" required>  
         <label for="email"> Email Address</label> <br>
-        <Input class="email" type=text id="email" name=" user_email"  placeholder="Required" required>
+        <Input class="email" type="email" id="email" name=" user_email"  placeholder="Required" required>
         <label for="phone-number" id="no-after"> Phone Number</label> <br>
-        <input type="text" id="phone-number" name="user_phone-number"  placeholder="optional"> 
+        <input type="tel" id="phone-number" name="user_phone-number"  placeholder="optional"> 
         <label for="street-address"> Street Address</label> <br> 
         <Input type=text id="street-address" name=" user_street-adress"  placeholder="Required" required>
         <label for="city"> City</label>  <br>
@@ -96,9 +96,11 @@
                   <Hr>
 
         
-        <Fieldset id="second-part">
+        <Fieldset >
+            
             <legend> Newsletter</legend><br>
             <br>
+            <div id="second-part">
             <label >Select the newsletter you would like to receive</label><br>
                 
             <br>
@@ -129,6 +131,7 @@
         <label > Other topic you would like to hear about</label> <br>
         <Input type="text" id="other-topic" name="users_other-topic">
         </div>
+    </div>
      </Fieldset>
  <button type="submit">Sign Up</button>
 
